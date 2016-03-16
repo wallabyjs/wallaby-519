@@ -1,7 +1,8 @@
 import a from './a';
+import { expect } from 'chai'
 
 describe('a', () => {
   it('should be ok', () => {
-    console.log(a);
+    expect(a.b).to.be.undefined
   })
 });
